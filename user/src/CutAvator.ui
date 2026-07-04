@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CutAvator</class>
+ <widget class="QDialog" name="CutAvator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>394</width>
+    <height>376</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>311</width>
+    <height>311</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>编辑头像</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="but_cut">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    font: 12pt 'Microsoft YaHei UI';
+    background-color: rgb(5, 186, 251);
+    color: white;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: rgba(5, 186, 251, 0.7);
+    color: white;
+    border-radius: 10px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}</string>
+       </property>
+       <property name="text">
+        <string>裁剪</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="but_yes">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    font: 12pt 'Microsoft YaHei UI';
+    background-color: rgb(5, 186, 251);
+    color: white;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: rgba(5, 186, 251, 0.7);
+    color: white;
+    border-radius: 10px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}</string>
+       </property>
+       <property name="text">
+        <string>确认</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+    <widget class="QWidget" name="dock_avator">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>277</width>
+         <height>277</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>277</width>
+          <height>277</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget { background: rgb(241, 231, 234); }</string>
+     </property>
+     <widget class="DraggableResizableLabel" name="lab_cut">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>277</width>
+        <height>277</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 3px dashed rgb(0, 0, 0);
+color:rgb(0, 0, 127);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DraggableResizableLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">CutAvator.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>but_yes</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

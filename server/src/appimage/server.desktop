@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=速聊服务端
+Exec=server
+Icon=server
+Terminal=true
+Categories=Network;

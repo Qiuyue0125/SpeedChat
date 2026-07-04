@@ -1,0 +1,2 @@
+#include <windows.h>
+IDI_ICON1 ICON "../resource/picture/suliao_normal.ico"

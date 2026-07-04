@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChoiceDialog</class>
+ <widget class="QDialog" name="ChoiceDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>247</width>
+    <height>142</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="AutoClearTextEdit" name="textEdit_notice">
+     <property name="contextMenuPolicy">
+      <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;
+font: 12pt &quot;Microsoft YaHei UI&quot;;
+padding:5px;
+background:transparent;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="but_no">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    font: 13pt 'Microsoft YaHei UI';
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border:none;
+    border-radius: 5px;
+}
+QPushButton:hover {
+    background-color: rgb(225, 225, 225);
+    color: red;
+    border-radius: 5px;
+}
+QPushButton:pressed {
+    background-color: rgb(206, 206, 206);
+    color: red;
+    border-radius: 5px;
+}</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="but_yes">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    font: 13pt 'Microsoft YaHei UI';
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border:none;
+    border-radius: 5px;
+}
+QPushButton:hover {
+    background-color: rgb(225, 225, 225);
+    color: black;
+    border-radius: 5px;
+}
+QPushButton:pressed {
+    background-color: rgb(206, 206, 206);
+    color: black;
+    border-radius: 5px;
+}</string>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AutoClearTextEdit</class>
+   <extends>QTextEdit</extends>
+   <header location="global">AutoClearTextEdit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

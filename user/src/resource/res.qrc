@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file alias="suliao.png">picture/suliao.png</file>
+        <file alias="suliao_avator.png">picture/suliao_avator.png</file>
+        <file alias="suliao_avator_normal.jpg">picture/suliao_avator_normal.jpg</file>
+        <file alias="094 Cloudy Apple.png">picture/094 Cloudy Apple.png</file>
+        <file alias="addfriends.jpg">picture/addfriends.jpg</file>
+        <file alias="094 Cloudy Apple - trans.png">picture/094 Cloudy Apple - trans.png</file>
+        <file alias="suliao_normal.png">picture/suliao_normal.png</file>
+        <file alias="background.jpg">picture/background.jpg</file>
+        <file alias="tafei.png">picture/tafei.png</file>
+        <file alias="icon_settings.png">picture/icon_settings.png</file>
+        <file alias="icon_chat.png">picture/icon_chat.png</file>
+        <file alias="icon_friends.png">picture/icon_friends.png</file>
+        <file alias="icon_ai.png">picture/icon_ai.png</file>
+        <file alias="icon_github.png">picture/icon_github.png</file>
+        <file alias="icon_bilibili.png">picture/icon_bilibili.png</file>
+        <file alias="icon_logo.png">picture/icon_logo.png</file>
+        <file alias="icon_add_friend.png">picture/icon_add_friend.png</file>
+        <file alias="icon_search.png">picture/icon_search.png</file>
+        <file alias="icon_send_pic.png">picture/icon_send_pic.png</file>
+        <file alias="icon_send_file.png">picture/icon_send_file.png</file>
+        <file alias="icon_send_audio_play.png">picture/icon_send_audio_play.png</file>
+        <file alias="icon_send_audio_pause.png">picture/icon_send_audio_pause.png</file>
+        <file alias="icon_cloud.png">picture/icon_cloud.png</file>
+        <file alias="icon_upload.png">picture/icon_upload.png</file>
+        <file alias="icon_download.png">picture/icon_download.png</file>
+        <file alias="icon_close_normal.png">picture/icon_close_normal.png</file>
+        <file alias="icon_close_hover.png">picture/icon_close_hover.png</file>
+        <file alias="icon_document.png">picture/icon_document.png</file>
+        <file alias="icon_save.png">picture/icon_save.png</file>
+        <file alias="icon_min.png">picture/icon_min.png</file>
+        <file alias="icon_max.png">picture/icon_max.png</file>
+        <file>picture/suliao_normal.ico</file>
+    </qresource>
+    <qresource prefix="/sound">
+        <file alias="ring.wav">sound/ring.wav</file>
+    </qresource>
+</RCC>
