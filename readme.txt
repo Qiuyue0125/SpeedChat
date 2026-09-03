@@ -1,5 +1,5 @@
 
-本项目实现了一个基于 Qt 6.7.3 和 MySQL 的即时通讯（IM）聊天软件，包含服务端（server/）和客户端（user/）两部分。
+本项目实现了一个基于 Qt 6.7.3 和 MySQL 的即时通讯（IM）聊天软件，包含服务端（server/）和客户端（user/）两部分。服务端与客户端都支持 Windows 与 Linux 部署。
 另外本项目不允许商用。
 演示视频：https://www.bilibili.com/video/BV1tTXhBaEo3/?share_source=copy_web&vd_source=83b5ce34c8d8f6e4acce3fac19eb7f81
 
