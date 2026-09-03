@@ -1,7 +1,7 @@
 
 本项目实现了一个基于 Qt 6.7.3 和 MySQL 的即时通讯（IM）聊天软件，包含服务端（server/）和客户端（user/）两部分。
 另外本项目不允许商用。
-
+演示视频：https://www.bilibili.com/video/BV1tTXhBaEo3/?share_source=copy_web&vd_source=83b5ce34c8d8f6e4acce3fac19eb7f81
 
 主要功能：
 - 账号系统：用户注册、登录、密码找回（密保验证）、修改密码、注销账号
